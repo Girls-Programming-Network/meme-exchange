@@ -47,7 +47,7 @@
       'sarah': 'starwars',
       'william': '159753',
       'amber': 'password',
-      'donnab1153': 'Rottnest',
+      'doonab1123': 'Rottnest',
     }
     
     memes = {
@@ -73,7 +73,7 @@
       'sarah': 'meme20.png',
       'william': 'meme21.png',
       'amber': 'meme22.png',
-      'donnab1153': 'donna.jpg'
+      'doonab1123': 'donna.jpg'
     }
 
     const form = document.getElementById('login');
@@ -83,9 +83,6 @@
   
       let username = event.target[0].value
       let password = event.target[1].value
-
-      console.log(username);
-      console.log(users);
 
       if (users[username.toLowerCase()] && users[username.toLowerCase()] == password) {
         invalid.setAttribute('hidden', '');
